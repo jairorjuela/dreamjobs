@@ -30,3 +30,31 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 es:
+  activerecord:
+    errors:
+      models:
+        driver:
+          attributes:
+            identification:
+              not_a_number: "El campo debe ser numerico"
+              blank: "El campo es requerido"
+            transit_license:
+              blank: "El campo es requerido"
+              not_a_number: "El campo debe ser numerico"
+            phone:
+              blank: "El campo es requerido"
+              not_a_number: "El campo debe ser numerico"
+            mail:
+              blank: "El campo es requerido"
+              invalid: "El formato no es de correo electronico"
+        passenger:
+          attributes:
+            identification:
+              not_a_number: "El campo debe ser numerico"
+              blank: "El campo es requerido"
+            phone:
+              blank: "El campo es requerido"
+              not_a_number: "El campo debe ser numerico"
+            mail:
+              blank: "El campo es requerido"
+              invalid: "El formato no es de correo electronico"
